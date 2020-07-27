@@ -5,7 +5,12 @@
     height: 50px;
     box-sizing: border-box;
     padding: 0 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 5px rgba(200, 200, 200, 0.3);
 }
 .top-bar .left img{
     height: 50px;
+}
+.content{
+    height: calc(100vh - 50px);
 }
