@@ -1,0 +1,11 @@
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.top-bar .left img{
+    height: 50px;
+}
