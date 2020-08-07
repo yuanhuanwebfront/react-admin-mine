@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
+import './style/components.css';
+import './style/main.css';
+import './style/page.css';
 import './style/Layout.css';
 
 

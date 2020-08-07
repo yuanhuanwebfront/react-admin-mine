@@ -1,0 +1,14 @@
+/*  reset   样式  */
+button{
+    outline: none;
+    border: none;
+}
+
+/*  absolute 居中的元素  */
+.ab-center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+

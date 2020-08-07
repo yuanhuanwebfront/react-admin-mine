@@ -12,7 +12,7 @@ function Home(){
 
     return (
         <div className='home-page'>
-            <TopBar left={<Logo img={logoImg}/>} right={<UserInfo/>} />
+            <TopBar left="" right={<UserInfo/>} />
             <ContentPage>
 
             </ContentPage>

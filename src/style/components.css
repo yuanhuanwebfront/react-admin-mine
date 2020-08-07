@@ -1,0 +1,13 @@
+/*  .btn元素  */
+.btn{
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+}
+.btn-success{
+    background-color: #00cd2c;
+    color: #fff;
+}
