@@ -6,8 +6,10 @@
     border-radius: 5px;
     border: 1px solid #d1d1d1;
     background-color: #fff;
+    margin-right: 12px;
 }
 .btn-success{
     background-color: #00cd2c;
     color: #fff;
+    border: none;
 }

@@ -4,11 +4,49 @@ button{
     border: none;
 }
 
+/*      input相关     */
+input{
+    border: 1px solid #dcdfe6;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+}
+input:focus{
+    border-color: #409eff;
+}
+
+/*    label相关   */
+.form-label{
+    margin-bottom: 24px;
+}
+.form-label .name{
+    min-width: 84px;
+}
+
 /*  absolute 居中的元素  */
 .ab-center{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*  text-align  对齐方式·*/
+.text-l{
+    text-align: left;
+}
+.text-c{
+    text-align: center;
+}
+.text-r{
+    text-align: right;
+}
+
+/*      flex相关   */
+.flex{
+    display: flex;
+    align-items: center;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
 import Home from './views/Home';
 import Login from "./views/Login";
@@ -11,10 +11,10 @@ function App() {
   let login = <Redirect to={{pathname: '/login'}} />,
       hasLogin = getUserToken();
 
-
   return (
     <Router>
       <div id="app">
+          {}
         {!hasLogin ? login : ''}
         <Switch>
             <Route exact path="/">
