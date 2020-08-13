@@ -1,23 +1,26 @@
-import React, {useState} from 'react';
+import React from "react";
 import TopBar from "../../Layout/TopBar";
-import Logo from '../../Layout/TopBar/Logo';
-import ContentPage from '../../components/ContentPage';
+import { Route } from "react-router-dom";
 
+import Hot from "../Hot";
+import Explore from "../Explore";
+import Waiting from "../Waiting";
 
-import UserInfo from '../../Layout/TopBar/UserInfo';
-
-const logoImg = require('../../assets/img/logo.png');
-
-function Home(){
-
-    return (
-        <div className='home-page'>
-            <TopBar left="" right={<UserInfo/>} />
-            <ContentPage>
-
-            </ContentPage>
-        </div>
-    )
+function Home() {
+  return (
+    <div className="home-page">
+      <TopBar />
+      <Route exact path="/hot">
+        <Hot />
+      </Route>
+      <Route exact path="/explore">
+        <Explore />
+      </Route>
+      <Route exact path="/waiting">
+        <Waiting />
+      </Route>
+    </div>
+  );
 }
 
 export default Home;

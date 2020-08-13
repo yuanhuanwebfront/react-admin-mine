@@ -14,15 +14,15 @@ function App() {
   return (
     <Router>
       <div id="app">
-          {}
         {!hasLogin ? login : ''}
         <Switch>
-            <Route exact path="/">
+            <Route path="/">
                 <Home />
             </Route>
             <Route exact path="/login">
                 <Login />
             </Route>
+            <Redirect from='/*' to="/hot" />
         </Switch>
       </div>
     </Router>
