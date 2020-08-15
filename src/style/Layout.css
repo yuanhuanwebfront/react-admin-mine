@@ -39,10 +39,20 @@
     content: "";
 }
 .top-bar .logo{
-    width: 80px;
+    width: 60px;
     height: auto;
+    margin-right: 24px;
 }
 
 .content{
     height: calc(100vh - 50px);
+}
+
+.not-found{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/img/404.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px auto;
 }

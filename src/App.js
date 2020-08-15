@@ -4,6 +4,7 @@ import {HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Home from './views/Home';
 import Login from "./views/Login";
 
+
 import {getUserToken} from "./Util/storage";
 
 function App() {
@@ -16,13 +17,13 @@ function App() {
       <div id="app">
         {!hasLogin ? login : ''}
         <Switch>
-            <Route path="/">
-                <Home />
-            </Route>
+            {/* 如果登录先走登录 */}
             <Route exact path="/login">
                 <Login />
             </Route>
-            <Redirect from='/*' to="/hot" />
+            <Route path="/">
+                <Home />
+            </Route>
         </Switch>
       </div>
     </Router>

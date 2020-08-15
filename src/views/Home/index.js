@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "../../Layout/TopBar";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
 import Hot from "../Hot";
 import Explore from "../Explore";
@@ -19,6 +19,7 @@ function Home() {
       <Route exact path="/waiting">
         <Waiting />
       </Route>
+      <Redirect from="/" to="/hot"></Redirect>
     </div>
   );
 }

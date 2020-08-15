@@ -1,15 +1,36 @@
 /*  .btn元素  */
-.btn{
-    cursor: pointer;
-    padding: 12px 20px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #d1d1d1;
-    background-color: #fff;
-    margin-right: 12px;
+.btn {
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  margin-right: 12px;
 }
-.btn-success{
-    background-color: #00cd2c;
-    color: #fff;
-    border: none;
+.btn-success {
+  background-color: #00cd2c;
+  color: #fff;
+  border: none;
+}
+
+/* input */
+.input-area {
+    position: relative;
+}
+.input-area input {
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.input-area.icon input{
+    padding-right: 30px;
+}
+.input-area.icon i{
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
 }

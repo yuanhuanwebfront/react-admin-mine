@@ -1,36 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
-
-const NAV_LIST = [
-  {
-    path: "/hot",
-    name: "首页",
-  },
-  {
-    path: "/explore",
-    name: "发现",
-  },
-  {
-    path: "/waiting",
-    name: "等你回答",
-  }
-];
+import { NAV_LIST } from "../../config";
+import Input from '../../components/Input';
 
 function Index(props) {
   let Logo = require("../../assets/img/logo.png"),
-      navList = NAV_LIST.map(info => {
-          return <div className="nav-box" key={info.path}>
-              <NavLink to={info.path}>{info.name}</NavLink>
-          </div>
-      });
+    navList = NAV_LIST.map((info) => {
+      return (
+        <div className="nav-box" key={info.path}>
+          <NavLink to={info.path}>{info.name}</NavLink>
+        </div>
+      );
+    });
 
   return (
     <div className="top-bar">
       <div className="inner">
-        <Link to="/">
+        <Link to="/hot">
           <img className="logo" src={Logo} />
         </Link>
         {navList}
+        <Input icon="iconfont icon-search" placeholder="请输入内容" />
       </div>
     </div>
   );
