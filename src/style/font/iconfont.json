@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "11234992",
+      "name": "bell",
+      "font_class": "bell",
+      "unicode": "eaa4",
+      "unicode_decimal": 60068
+    },
+    {
+      "icon_id": "13920759",
+      "name": "chat",
+      "font_class": "chat",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
       "icon_id": "9186216",
       "name": "search",
       "font_class": "search",

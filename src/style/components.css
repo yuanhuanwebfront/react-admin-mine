@@ -1,17 +1,25 @@
 /*  .btn元素  */
 .btn {
-  cursor: pointer;
-  padding: 12px 20px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: 1px solid #d1d1d1;
-  background-color: #fff;
-  margin-right: 12px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    margin-right: 12px;
+}
+.btn.small{
+    padding: 6px 12px;
+}
+.btn-primary{
+    background-color: #0084ff;
+    color: #fff;
+    border-color: #0084ff;
 }
 .btn-success {
-  background-color: #00cd2c;
-  color: #fff;
-  border: none;
+    background-color: #00cd2c;
+    color: #fff;
+    border: none;
 }
 
 /* input */
@@ -19,16 +27,16 @@
     position: relative;
 }
 .input-area input {
-  width: 220px;
-  height: 30px;
-  border-radius: 5px;
-  line-height: 30px;
+    width: 220px;
+    height: 32px;
+    border-radius: 5px;
+    line-height: 32px;
+    background-color: #f6f6f6;
 }
-
-.input-area.icon input{
+.input-area.icon input {
     padding-right: 30px;
 }
-.input-area.icon i{
+.input-area.icon i {
     position: absolute;
     right: 6px;
     top: 50%;

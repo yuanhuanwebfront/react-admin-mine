@@ -19,7 +19,7 @@ function Home() {
       <Route exact path="/waiting">
         <Waiting />
       </Route>
-      <Redirect from="/" to="/hot"></Redirect>
+      <Redirect from="/" to="/hot" />
     </div>
   );
 }

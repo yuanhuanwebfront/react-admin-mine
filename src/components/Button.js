@@ -1,15 +1,8 @@
 import React from "react";
 
-function renderClass({type = '', className = ''} = {}) {
+function renderClass({type = '', className = '', size = ''} = {}) {
     let baseClass = 'btn';
-    //  先检查有没有传入type  传入type  构造type对应的class名
-    if(type){
-        baseClass = `${baseClass} btn-${type}`
-    }
-    if(className){
-        baseClass = `${baseClass} ${className}`
-    }
-    return baseClass;
+    return `${baseClass} btn-${type || ''} ${className} ${size}`;
 }
 
 export default function Button(props){

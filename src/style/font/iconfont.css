@@ -1,10 +1,10 @@
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1597475583903'); /* IE9 */
-  src: url('iconfont.eot?t=1597475583903#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOgAAsAAAAAB+gAAANUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDKIMJATYCJAMQCwoABCAFhG0HQhv1BhEVnH/IfizYthBePxArapKeCZ5/677uS1K/U+iByBry7E2uhFqc8wTywkRdjuTsyaNvu2TjlEYJEDD3x73jlvh8luXyZ2MM2ouiqAsw3hrQ2IusQHJPYXity9gMATwykA+pVqNeMywGs5cA0q93z87YjBbTkC5YhFjFRIMsxMGqWeoSsCD4vnykiFhQOBpzq0Y9qnej0hv9pqkOo5B2OiSczgzw00AD+QAD0qvS2gUdBfKh8dTmhhKAxaJgqppMb5pGESWPIrWWDdTgP09imKkBAMXg0vDG4UHBm0wSirKmIB9gIwOABVxgHHAKU5lsGtRaLQhM4iBhkiSJut650+Lu3Za3bze/dStE0whEzeDr2r1Rj7GRmErHnLsNhTu11enbmZfdqnbmTpaVd1u13HjR9+ecz9380i1v9p2xnqzs58yMJ1Mt1WrJkdmH0oWbsxOun7NRZO3WrkoTJ+AG65V3ayY8fXthhw36+XO9Xm/wxBs4NEGBIHp9sylq61bliqZyKDAGgWgKvAv6lCnzxT6QTLrSYfP3jzmU0O779XW/rj+z4GyalO+4j/7mcFX07vjBdeqkTOnoBk8KHnP8aeOJbtmMMzK292oMzzOhQM3qo/NS6Eb6oXnzlp3YyekWKzkjS95UlCyYv3qsWIh3oCw42o2NVTaSskrqNombZ2qeuE3qKkV2zpZKVUiDq5SoAYUAiI5pRlwpUIca5I/8DVvz1VzcMWG5b9Y3ADxsvzGiGVFo0CH8DaIz8duIjjlGE5g6YxShg+vDDMXQACjAswzwsyKQhCdT2JNDYhasQAAUcaQHjSUbxTDygYNPMYhhqQgeeak53ScpQ9CIcYE8TCMgJGIrKBJwFDSJuEwxjMfgkILPECORaPBQ/LsseHatPN0sCo8ZyBlKxR3ZBn8K09+Y942waUHA/KN1pRviIMqHX9ihnWKIG/LEewKy3MKTbIdNw6AtV6h8UHiv0zCkqjcFitvFyY2FBA9lgDQDJYV1yCvsnQqff0O5XkOwDVlV/j9kOWX9IBaIOlBe0q5T1q1c4wxyCc8jgFisBZ7EjBorwICubldBihcoBvi0VEjzUVdpsLy8fcNFgMc83aREixGH3SisKja9Q3vQwrmRbbZYAA==') format('woff2'),
-  url('iconfont.woff?t=1597475583903') format('woff'),
-  url('iconfont.ttf?t=1597475583903') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url('iconfont.svg?t=1597475583903#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1597652188718'); /* IE9 */
+  src: url('iconfont.eot?t=1597652188718#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAToAAsAAAAACXgAAASbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDSAqFdIUdATYCJAMYCw4ABCAFhG0HUBtLCMiemjxBRCmgYB+8ygaWJkAE1X6fPbv73iGpILhcJCA4VJHEEkh4Ap24RGhghYdCp/5PbPMfssR13Kp0c1H9qxke2kj86OhU8RH94IIYZVaetGHFCvOQfrhf8pVFgeSzb+eSHXiAxwd0QJGLDBzwBjIe6x7gGQap+cTpBFpNFY9YW1bTAuwUwapAnNJpaLBrGZQJSmhW18KupTkegLXmdFN2Brif/3xMUoUdSZUFG3eeLFVDwQhMPMoD/l/XITXB0MPZoO1FxmKgEJdFx1lkmViM1Or8BSubgXbNkjKSRzpHpj/b8yoaDVqSwBPaw2KKpDrgPy9qpGhH3NZkxQgZIxRGnBASI0gwrWyOCJmJJaKXpakPyKei3wBxBAL8bPGQ5PARl3gGOTiUHgfnXjeX3tO8/KZNI4gvX1oti5zuPf9a2pY9ATNjpnhc+dQCBmRXi95zxXfmUW/5wqujv4bJpx73n32t95SrLadcazVlC7Wi9vq1vjotB1wxp7lLo9K9916Vb7IuOxaJQa/rX2MnLWuYRforXfCavAVcjDG4ge1dykAMjL5eT6jXbXN0QhZcKTm2oYuvt2m9+rS87fbJmJZnmrp1rTdFPFwXDAEqDnWkNvP2jdoTMGBtBAxYOXo1QTxdz8hcmZP6ueTi6+XORz+nd1nSo+UHzPUk3enlTZFaaVTtGSnciP5lx8GNm7igYesJ8STFsPctsWLt8cwL3z7vzRxlff52IfP46+7hIfvGuZ9DLUrDW0x2Lqv9ZOM2lpg7AjQ06RcZKxsv2zNCpsnKp/sMthW2zJ8hh1TtPKUBIajPc39DTIgZbOz2gIfrM0L7d2mT3GUKtE5Drx1eM00JEzqtIh/+Ip+Tq0C2SuXVPORi9sq9g2Xr18sS6RCVh3zmonQwRsfrs7LeRZcElAv2Wv35jXuc7d7+/FJk7QjlKGi2rPMOMJW9UnY68lVV3t6xkR+YP87Bb+xvnx08PLgjVdY1tp+ivLRnHCR+mCLGxWX372KttkkfHhrXyCLGj1vamwi56SWJ8fvVsLpoNXiv9m3n2hK1dG3nW6TaPIooKAI/iYYop4MRoHE9n8/Xc9olTNa+J0PFSomHoj/a71j6f92dnXO+NssL+Nml451cvE3wb1FaLPxbdRQVQKNRknUxG+tiy01KatG2JrVhJN+PTmvooUGeXvcOpRlgW2huCTVImkyBrNlsVMEthkqbYag1WwGtFinfu00fASlKCxYaChC6rYek0zvIup1FFdxdqAx6C7XuIKHV/nA/ZJu5oaOKBUxLWI2aeiIdw5nZyCxRRXkzrOlqpIWmOKe3woKoC6MkRWI3XY7NWDjEFmI3jUqSWMQKnAmVwdmw0cghi8DpMSMptJJkyVIqWemFFAxnAsoaAowmwdSQJj0hOgyOGZsOl1C9728G0+jKiCZM9HU4W8EEIt34SBKFxAWocoV5Ud9LuYuoGw0ViYSFsAQcE6QMbJgxTHAQizxPD2NIFLQbYhZZlDSIXapQnF5lepdHoFWwZR0pcpSooo4m5ej9m2DFaGnJRsS0UGxr1VXEgp2FFsXunKAGAAA=') format('woff2'),
+  url('iconfont.woff?t=1597652188718') format('woff'),
+  url('iconfont.ttf?t=1597652188718') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1597652188718#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -13,6 +13,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bell:before {
+  content: "\eaa4";
+}
+
+.icon-chat:before {
+  content: "\e60e";
 }
 
 .icon-search:before {
