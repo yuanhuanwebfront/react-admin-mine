@@ -11,3 +11,28 @@
     border-radius: 15px;
     background-color: #fff;
 }
+
+/*    Hot页    */
+.hot-content{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.hot-content .main{
+    width: 700px;
+    background-color: #fff;
+}
+.hot-content .nav-item{
+    float: left;
+    cursor: pointer;
+    height: 58px;
+    margin: 0 22px;
+    line-height: 58px;
+    font-size: 16px;
+}
+.hot-content .nav-item:hover{
+    color: #175199;
+}
+.hot-content .nav-item.active{
+    color: #0084ff;
+}
