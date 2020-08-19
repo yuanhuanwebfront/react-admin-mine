@@ -6,6 +6,9 @@ button{
 a{
     text-decoration: none;
 }
+i{
+    font-style: normal;
+}
 /*      input相关     */
 input{
     border: 1px solid #dcdfe6;
