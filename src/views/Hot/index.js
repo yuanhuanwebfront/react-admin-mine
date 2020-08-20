@@ -19,6 +19,7 @@ export default function Hot(){
         return <RankItem title={item.target.title_area.text} key={item.id}
                   desc={item.target.excerpt_area.text}
                   img={item.target.image_area.url}
+                  hot={item.target.metrics_area.text}
                   num={idx + 1}
         />
     })

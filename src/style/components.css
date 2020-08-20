@@ -46,8 +46,18 @@
 /*  rank-item   */
 .rank-item{
     width: 100%;
+    padding: 16px 0;
     position: relative;
 }
+.rank-item:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #ebebeb;
+}
+
 .rank-item .content{
     width: 415px;
     height: fit-content;
@@ -56,7 +66,7 @@
     color: #1a1a1a;
     font-size: 18px;
     line-height: 28px;
-    max-height: 56px;
+    height: 56px;
     display: -webkit-box;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -79,7 +89,7 @@
     margin-left: 16px;
 }
 .rank-item .rank-num-box{
-    height: 100%;
+    align-self: start;
 }
 .rank-item .rank-num{
     width: 57px;
@@ -91,4 +101,11 @@
 }
 .rank-item .rank-num.active{
     color: #ff9607;
+}
+.rank-item .share{
+    color: #8590a6;
+    margin-top: 8px;
+}
+.rank-item .share .share-icon{
+    padding-left: 28px;
 }

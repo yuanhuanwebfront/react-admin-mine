@@ -9,6 +9,14 @@ export default function RankItem(props){
         <div className='content'>
             <p className="title">{props.title}</p>
             <p className="desc">{props.desc}</p>
+            <p className="share">
+                <span>
+                    <i className="iconfont icon-fire" /> {props.hot}
+                </span>
+                <span className="share-icon">
+                    <i className="iconfont icon-share-arrow" /> 分享
+                </span>
+            </p>
         </div>
         <img alt="" className="news-img" src={props.img} />
     </div>
